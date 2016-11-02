@@ -209,7 +209,7 @@ module Yt
         Errno::EHOSTUNREACH,
         Errno::ENETUNREACH,
         Errno::ECONNRESET,
-        Net::OpenTimeout,
+        Timeout::Error,
         SocketError,
         Net::HTTPServerError
       ] + extra_server_errors
